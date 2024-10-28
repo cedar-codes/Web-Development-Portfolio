@@ -1,0 +1,22 @@
+{
+  "name": "paintings-starter-backend",
+  "version": "2024",
+  "description": "Backend with data for paintings",
+  "main": "paintings-controller.mjs",
+  "homepage": "https://cedar-codes.github.io/profile/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon paintings-controller.mjs",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Rachel Hoeferlin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "rest": "^2.0.0",
+    "nodemon": "^3.0.1"
+  }
+}

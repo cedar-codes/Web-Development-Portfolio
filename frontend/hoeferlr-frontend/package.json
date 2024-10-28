@@ -3,7 +3,7 @@
   "version": "2024",
   "private": true,
   "proxy": "http://localhost:3000",
-  "homepage": "https://cedar-codes.github.io/hoeferlin-web-portfolio",
+  "homepage": "https://cedar-codes.github.io/profile/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -26,7 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
